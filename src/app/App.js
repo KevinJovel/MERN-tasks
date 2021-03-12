@@ -97,7 +97,7 @@ class App extends Component {
                 {/*Navigation */}
                 <nav className="light-blue darken-4">
                     <div className="container">
-                        <a className="brand-logo" href='/'>MERN Stack</a>
+                        <a className="brand-logo" href='/'>MERN Stack Kevin Jovel</a>
                     </div>
                 </nav>
                 <div className="container">
