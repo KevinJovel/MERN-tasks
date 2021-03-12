@@ -1,4 +1,3 @@
-import { Mongoose } from 'mongoose';
 import React, { Component } from 'react';
 
 class App extends Component {
