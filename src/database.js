@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoAtlasUri = 'mongodb+srv://bd_user-learning:root14003@cluster0.2mlg8.mongodb.net/TasksDB?retryWrites=true&w=majority';
+const mongoAtlasUri = process.env.MONGO_URI;
 try {
     // Connect to the MongoDB cluster
      mongoose.connect(
